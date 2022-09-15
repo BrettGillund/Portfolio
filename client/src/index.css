@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
 
+
 * {
   margin: 0;
   padding: 0;
@@ -14,7 +15,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: rgb(185, 185, 185);
+
+  background-image: url('https://img.freepik.com/premium-photo/luxury-white-marble-texture-background-decorative-design-pattern-art-work-marble-with-high-resolution_24076-876.jpg?w=2000');
   color: rgb(85, 75, 75)
 }
 
@@ -25,9 +27,8 @@ code {
 
 #nav {
   display: flex;
-  justify-content: right;
+  justify-content: center;
   padding: 2px;
-  background: rgb(185, 185, 185);
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   font-size: 18px;
 }
@@ -37,37 +38,32 @@ code {
   color: rgb(85, 75, 75)
 }
 
-.landing-block {
-  display: block;
-  text-rendering: geometricPrecision;
-}
-
 .landing-div {
-  justify-content: justify;
   text-align: center;
-}
-
-.introduction:after {
-  content: "";
-  display: inline-block;
-  width: 100%;
 }
 
 #landing-header {
   text-decoration: underline;
-  font-size: 4em;
+  font-size: 5em;
 }
 
 #landing-subheader {
   text-decoration: underline;
-  font-size: 2.5em;
+  font-size: 3em;
 
 }
 
+#landing-span{
+  padding: 1%;
+}
+
+/* #landing-p {
+  margin: 2%;
+} */
+
 #landing-img{
-  padding: 5px;
-  margin: 10px;
-  width: 700px;
+  margin-top: 5%;
+  width: 60%;
 }
 
 
