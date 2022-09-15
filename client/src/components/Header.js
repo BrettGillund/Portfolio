@@ -5,9 +5,9 @@ function Header(){
         <header>
             <nav id="nav">
                     <a href="/" className="nav-component">HOME</a>
-                    <a href="/" className="nav-component">PORTFOLIO</a>
-                    <a href="/" className="nav-component">ABOUT</a>
-                    <a href="/" className="nav-component">CONTACT</a>
+                    <a href="/portfolio" className="nav-component">PORTFOLIO</a>
+                    <a href="/about" className="nav-component">ABOUT</a>
+                    <a href="/contact" className="nav-component">CONTACT</a>
             </nav>
         </header>
     )
