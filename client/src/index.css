@@ -25,6 +25,10 @@ code {
     monospace;
 }
 
+a {
+  color: rgb(85, 75, 75);
+}
+
 .nav-component {
   padding: 10px;
   color: rgb(85, 75, 75)
@@ -58,7 +62,7 @@ code {
   border: 2px solid;
   padding: 20px;
   margin: 20px;
-  width: fit-content;
+  font-weight: bold; 
 }
 
 .portfolio-description {
@@ -67,11 +71,27 @@ code {
   padding: 20px;
   margin: 20px;
   width: max-content;
+  background-color: white;
 }
 
 .portfolio-image {
   border-radius: 25px;
   border: 2px solid;
+  padding: 20px;
+  margin: 20px;
+  width: 50%;
+  height: 30%;
+}
+
+.about-image {
+  width: 15%;
+  height: 30%;
+}
+
+.about-description {
+  border-radius: 25px;
+  border: 2px solid;
+  width: -webkit-fill-available;
   padding: 20px;
   margin: 20px;
 }
@@ -114,4 +134,10 @@ code {
   border: 2px solid;
   padding: 20px;
   margin: 20px;
+}
+
+.about-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
