@@ -94,6 +94,8 @@ a {
   width: -webkit-fill-available;
   padding: 20px;
   margin: 20px;
+  background-color: white;
+  height: fit-content;
 }
 
 #nav {

@@ -12,10 +12,10 @@ function Portfolio() {
 
             <div class="portfolio-item">
                 <div class="portfolio-column">
-                    <h1 class="portfolio-name">Gamr</h1>
+                    <h1 class="portfolio-name">GamR</h1>
                     <div >
-                        <a href="https://gamr-applicaiton.herokuapp.com/" target="_blank" class="portfolio-links">- Deployed Application: Gamr -</a>
-                        <a href="https://github.com/BrettGillund/Gamr" target="_blank" class="portfolio-links">- Github: Gamr -</a>
+                        <a href="https://gamr-applicaiton.herokuapp.com/" target="_blank" class="portfolio-links">- Deployed Application: Gamr</a>
+                        <a href="https://github.com/BrettGillund/Gamr" target="_blank" class="portfolio-links">- Github: Gamr</a>
                     </div>
                 </div>
                 <p class="portfolio-description"> GamR is an application made for gamers, by gamers. Upon launching the application the user is presented with a landing page that walks the user through how to use the application and all the features. A new user is able to register or login in the top right corner. Once the user is logged in they are able to navigate to the sidebar on the left which includes a Profile page and a Users page. Profile allows a user to view and edit their information, while visiting the Users page allows the logged in user to browse other GamR's profile's and connect with people with similar interests!</p>
