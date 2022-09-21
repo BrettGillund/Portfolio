@@ -4,7 +4,7 @@ function Header() {
     return(
     <div className="landing-div">
             <h1 id="landing-header">Brett Gillund</h1>
-            <h1 id="landing-subheader">Fullstack Developer</h1>
+            <h1 id="landing-subheader">Full Stack Developer</h1>
             <div id="landing-span">
                 <span>Knowledge |</span>
                 <span> Wisdom |</span>
