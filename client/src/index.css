@@ -86,6 +86,7 @@ a {
 .about-image {
   width: 15%;
   height: 30%;
+  margin-top: 10px;
 }
 
 .about-description {
@@ -96,6 +97,27 @@ a {
   margin: 20px;
   background-color: white;
   height: fit-content;
+}
+
+.contact-div {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contact-header {
+  text-align: center;
+}
+
+.contact-section {
+  border-radius: 25px;
+  border: 2px solid;
+  padding: 20px;
+  margin: 20px;
+}
+
+.contact-image {
+  width: 200px;
+  height: 200px;  
 }
 
 #nav {
