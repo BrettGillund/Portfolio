@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-image: url('https://img.freepik.com/premium-photo/luxury-white-marble-texture-background-decorative-design-pattern-art-work-marble-with-high-resolution_24076-876.jpg?w=2000');
+  color: rgb(85, 75, 75)
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+  color: rgb(85, 75, 75);
+}
+
+.nav-component {
+  padding: 10px;
+  color: rgb(85, 75, 75)
+}
+
+.landing-div {
+  text-align: center;
+}
+
+
+.portfolio-item {
+  border-radius: 25px;
+  border: 2px solid;
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+}
+
+.portfolio-name {
+  border-radius: 25px;
+  border: 2px solid;
+  padding: 20px;
+  margin: 20px;
+  width: fit-content;
+}
+
+.portfolio-links {
+  display: flex;
+  flex-direction: column;
+  border-radius: 25px;
+  border: 2px solid;
+  padding: 20px;
+  margin: 20px;
+  font-weight: bold; 
+}
+
+.portfolio-description {
+  border-radius: 25px;
+  border: 2px solid;
+  padding: 20px;
+  margin: 20px;
+  width: max-content;
+  background-color: white;
+}
+
+.portfolio-image {
+  border-radius: 25px;
+  border: 2px solid;
+  padding: 20px;
+  margin: 20px;
+  width: 50%;
+  height: 30%;
+}
+
+.about-image {
+  width: 15%;
+  height: 30%;
+  margin-top: 10px;
+}
+
+.about-description {
+  border-radius: 25px;
+  border: 2px solid;
+  width: -webkit-fill-available;
+  padding: 20px;
+  margin: 20px;
+  background-color: white;
+  height: fit-content;
+}
+
+.contact-div {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contact-header {
+  text-align: center;
+}
+
+.contact-section {
+  border-radius: 25px;
+  border: 2px solid;
+  padding: 20px;
+  margin: 20px;
+}
+
+.contact-image {
+  width: 200px;
+  height: 200px;  
+}
+
+#nav {
+  display: flex;
+  justify-content: center;
+  padding: 2px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 18px;
+}
+
+#landing-header {
+  text-decoration: underline;
+  font-size: 5em;
+}
+
+#landing-subheader {
+  text-decoration: underline;
+  font-size: 3em;
+
+}
+
+#landing-span {
+  padding: 1%;
+}
+
+#landing-img {
+  margin-top: 5%;
+  width: 60%;
+}
+
+#portfolio-header {
+  text-align: center;
+  border-radius: 25px;
+  border: 2px solid;
+  padding: 20px;
+  margin: 20px;
+}
+
+.about-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
