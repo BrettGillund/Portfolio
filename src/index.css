@@ -36,6 +36,7 @@ a {
 
 .landing-div {
   text-align: center;
+  height: 100%;
 }
 
 
@@ -163,6 +164,29 @@ a {
 }
 
 @media screen and (max-width: 768px) {
+  #landing-header {
+    text-decoration: underline;
+    font-size: xx-large;
+    padding-top: 50px;
+  }
+
+  #landing-subheader {
+    text-decoration: underline;
+    font-size: x-large;
+    padding-bottom: 25px;
+  }
+
+  .landing-div {
+    text-align: center;
+    height: 100vh;
+  }
+
+  #landing-img{
+    padding-top: 100px;
+    height: 50%;
+    width: 90%;
+  }
+
   #portfolio-header {
     font-size: medium;
   }
@@ -196,11 +220,6 @@ a {
 
   .portfolio-image {
     display: none;
-  }
-
-  .landing-image{
-    justify-content: baseline;
-    align-items: baseline;
   }
 
   .about-section {
