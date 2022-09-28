@@ -161,3 +161,36 @@ a {
   flex-direction: row;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 768px) {
+  .portfolio-name {
+    text-align: center;
+  }
+
+  .portfolio-item {
+    flex-direction: column;
+    border-radius: 25px;
+    border: 2px solid;
+    padding: 10px;
+    margin: 10px;
+    /* display: flex; */
+  }
+
+  .portfolio-column {
+    flex-direction: row;
+  }
+
+  .portfolio-description {
+    border-radius: 25px;
+    border: 2px solid;
+    padding: 20px;
+    margin: 20px;
+    width: fit-content;
+    background-color: white;
+
+  }
+
+  .portfolio-image {
+    display: none;
+  }
+}
