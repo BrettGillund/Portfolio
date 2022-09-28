@@ -11,7 +11,7 @@ function Header() {
                 <span> Expertise</span>
             </div>
             {/* <p id="landing-p">Please use any of the options above to navigate around the application</p> */}
-        <img src={landingPhoto} id="landing-img" alt="landing-img" />
+        <img src={landingPhoto} id="landing-img" alt="landing-img" class="landing-image"/>
     </div>
     )
 }

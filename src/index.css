@@ -163,6 +163,10 @@ a {
 }
 
 @media screen and (max-width: 768px) {
+  #portfolio-header {
+    font-size: medium;
+  }
+
   .portfolio-name {
     text-align: center;
   }
@@ -193,4 +197,10 @@ a {
   .portfolio-image {
     display: none;
   }
+
+  .landing-image{
+    justify-content: baseline;
+    align-items: baseline;
+  }
+
 }
