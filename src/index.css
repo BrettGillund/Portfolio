@@ -182,8 +182,8 @@ a {
   }
 
   #landing-img{
-    padding-top: 100px;
-    height: 58%;
+    padding-top: 100px; 
+    height: 48%;
     width: 100%;
   }
 
@@ -219,7 +219,8 @@ a {
   }
 
   .portfolio-image {
-    display: none;
+    /* display: none; */
+    width: -webkit-fill-available;
   }
 
   .about-section {
