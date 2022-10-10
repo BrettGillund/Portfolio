@@ -14,9 +14,9 @@ function Contact() {
                     <img src={phone} alt="phone" className='contact-image'/>
                 </div>
                 <div className="contact-section">
-                    <h1 className="contact-header">Email</h1>
-                    <p className="contact-header">BrettGillund@gmail.com</p>
-                    <img src={gmail} alt="gmail" className='contact-image'/>
+                    <a href = "mailto:brettgillund@gmail.com"><h1 className="contact-header">Email</h1></a>
+                    <a href = "mailto:brettgillund@gmail.com"><p className="contact-header">BrettGillund@gmail.com</p></a>
+                    <a href = "mailto:brettgillund@gmail.com"><img src={gmail} alt="gmail" className='contact-image'/></a>
                 </div>
 
                 <div className="contact-section">
